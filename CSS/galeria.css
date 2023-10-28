@@ -1,0 +1,54 @@
+html,
+body{
+    position: relative;
+}
+body{
+    background-color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.swiper{
+    width:100%;
+    padding-top: 150px 0 50px 0;
+}
+.swiper-slide{
+    width: 700px;
+    height: 500px;
+    background-color: black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.product-txt h3{
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.product-img{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+
+/*Parte del boton*/
+
+.btn-1{
+    display: inline-block;
+    padding: 13px 55px;
+    border: 1px solid red;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 50px;
+}

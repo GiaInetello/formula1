@@ -8,20 +8,25 @@
 </head>
 <body>
     <header>
-        <a href="noticias.html"><img src="../imagenes/descarga.png" alt="logo" title="logo f1"></a>
+        <a href="../paginas/noticias.html"><img src="../imagenes/descarga.webp" alt="logo" title="logo f1"></a>
         <h1>Gran Premio de Singapur</h1>
         <p><em>23/09</em></p>
     </header>
     <main>
         <img src="../imagenes/Singapore_Circuit.webp" alt="Circuito Marina Bay" title="Circuito Marina Bay" height="394px" width="700px">
-        <p><em>1er Puesto:</em>Oscar Piastri</p>
-        <p><em>2do Puesto:</em>Fernando Alonzo</p>
-        <p><em>3er Puesto:</em>Carlos Sainz</p>
-        <p><em>Piloto del día:</em>Oscar Piastri</p>
-        <p><em>Mejor parada de pits:</em>Ferrari-1.95s</p>
+        <h4>Resultados:</h4>
+        <ol>
+            <li><em>Oscar Piastri</em></li>
+            <li><em>Fernando Alonzo</em></li>
+            <li><em>Carlos Sainz</em></li>
+        </ol>
+        <ul>
+            <li><em>Piloto del día: </em>Oscar Piastri</li>
+            <li><em>Mejor parada de pits: </em>Ferrari-1.95s</li>
+        </ul>
     </main>
     <aside>
-        <form action="#">
+        <form action="#" method="post">
             <fieldset>
                 <legend>Dejanos tu opinion</legend>
                 <label for="mejorPiloto">Mejor Piloto del día:</label><br>
@@ -40,7 +45,8 @@
                 <input type="radio" name="peorPiloto" value="Lawson" id="peorPiloto">
                 <label for="peorPiloto">Liam Lawson</label><br>
 
-                <textarea name="opinion" id="opinon" cols="30" rows="10">¿Que te pareció la carrera?</textarea>
+                <textarea name="opinion" id="opinon" cols="30" rows="10">¿Que te pareció la carrera?</textarea><br>
+                <input type="submit" id="enviarO" name="enviarO" value="Enviar">
             </fieldset>
         </form>
     </aside>

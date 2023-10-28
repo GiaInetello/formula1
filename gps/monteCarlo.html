@@ -8,20 +8,25 @@
 </head>
 <body>
     <header>
-        <a href="noticias.html"><img src="../imagenes/descarga.png" alt="logo" title="logo f1"></a>
+        <a href="../paginas/noticias.html"><img src="../imagenes/descarga.webp" alt="logo" title="logo f1"></a>
         <h1>Gran Premio de Monaco</h1>
         <p><em>02/06</em></p>
     </header>
     <main>
         <img src="../imagenes/Monoco_Circuit.webp" alt="Circuito Monaco" title="Circuito Monaco" height="394px" width="700px">
-        <p><em>1er Puesto:</em>Lando Norris</p>
-        <p><em>2do Puesto:</em>Lewis Hamilton</p>
-        <p><em>3er Puesto:</em>Oscar Piastri</p>
-        <p><em>Piloto del día:</em>Lewis Hamilton</p>
-        <p><em>Mejor parada de pits:</em>Red Bull-2.1s</p>
+        <h4>Resultados:</h4>
+        <ol>
+            <li><em>Lando Norris</em></li>
+            <li><em>Lewis Hamilton</em></li>
+            <li><em>Oscar Piastri</em></li>
+        </ol>
+        <ul>
+            <li><em>Piloto del día: </em>Lewis Hamilton</li>
+            <li><em>Mejor parada de pits: </em>Red Bull-2.1s</li>
+        </ul>
     </main>
     <aside>
-        <form action="#">
+        <form action="#" method="post">
             <fieldset>
                 <legend>Dejanos tu opinion</legend>
                 <label for="mejorPiloto">Mejor Piloto del día:</label><br>
@@ -40,7 +45,8 @@
                 <input type="radio" name="peorPiloto" value="Lawson" id="peorPiloto">
                 <label for="peorPiloto">Liam Lawson</label><br>
 
-                <textarea name="opinion" id="opinon" cols="30" rows="10">¿Que te pareció la carrera?</textarea>
+                <textarea name="opinion" id="opinon" cols="30" rows="10">¿Que te pareció la carrera?</textarea><br>
+                <input type="submit" id="enviarO" name="enviarO" value="Enviar">
             </fieldset>
         </form>
     </aside>
