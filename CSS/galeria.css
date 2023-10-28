@@ -1,6 +1,11 @@
+/*.galeria{
+    margin-top: 10%;
+}
 html,
 body{
     position: relative;
+    display: inline-block;
+    align-items: center;
 }
 body{
     background-color: red;
