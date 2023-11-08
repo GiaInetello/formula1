@@ -5,21 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-        />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="../CSS/galeria.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg" id="navBar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../imagenes/descarga (1).webp" alt="logo" title="logo f1">
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galeria.html">Glería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="puntajes.html">Puntajes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cronograma.html">Cronograma </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <header class="header">
-        <a href="/paginas/noticias.html"><img src="../imagenes/descarga.webp" alt="logo" title="logo f1"></a>
         <h1>Autos de la temporada</h1>
-    </header>   
-
-
+    </header>
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
             <!--Aca arranca el Alfa-->
@@ -164,16 +187,6 @@
         </div>
     </div>
     </section>
-
-    <footer>
-        <div>
-            <a href="noticias.html">Noticias</a>
-            <a href="#">Glería</a>
-            <a href="puntajes.html">Puntajes</a>
-            <a href="cronograma.html">Cronograma</a>
-        </div>
-    </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="../JS/galeria.js"></script>
 
