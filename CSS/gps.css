@@ -1,0 +1,9 @@
+#navBar {
+    background: linear-gradient(to right, #ebebeb 0%, #434343 100%);
+    margin-bottom: auto;
+    text-decoration-color: black;
+}
+
+a[href*="rx236"] {
+    color: #000000;
+}

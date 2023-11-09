@@ -13,6 +13,7 @@ a[href*="rx236"] {
 body {
     position: relative;
     height: 100%;
+    width: 100%;
     display: inline-block;
     align-items: center;
     background-color: rgb(0, 0, 0);
@@ -125,10 +126,12 @@ header h2 {
 
 #news-feed2 .news-blok2 .blok-primero {
     width: 34%;
+    padding-right: 40px;
 }
 
 #news-feed2 .news-blok2 .blok-segundo {
     width: 33%;
+    padding-right: 40px;
 }
 
 #news-feed2 .news-blok2 .blok-tercero {
@@ -173,4 +176,10 @@ header h2 {
 
 #news-feed3 .news-blok3 .blok-2 {
     width: 25%;
+}
+
+.linkPag{
+    text-decoration: none;
+    margin-left: 45%;
+    padding-bottom: 30px;
 }
