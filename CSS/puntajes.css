@@ -7,3 +7,36 @@
 a[href*="rx236"] {
     color: #000000;
 }
+
+body{
+    background-color:  red;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 100px 0px 100px;
+    align-items: center;
+}
+
+table{
+    /* Preguntar como poner un borde de color*/
+    background-color: #adadad;
+    border-radius: 20px;
+    width: 40%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+th{
+    font-size: 30px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}

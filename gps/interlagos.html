@@ -26,7 +26,7 @@
                             <a class="nav-link active" aria-current="page" href="../paginas/noticias.html">Noticias</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../paginas/galeria.html">Glería</a>
+                            <a class="nav-link" href="../paginas/galeria.html">Galería</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../paginas/puntajes.html">Puntajes</a>
@@ -38,45 +38,53 @@
                 </div>
             </div>
         </nav>
-        <h1>Gran Premio de Brazil</h1>
-        <p><em>04/08</em></p>
+        <div class="titulo">
+            <h1>Gran Premio de Brazil</h1>
+            <p><em>04/08</em></p>
+        </div>
     </header>
-    <main>
+    <main class="resultados">
         <img src="../imagenes/image.webp" alt="Circuito Interlagos" title="Circuito Interlagos" height="394" width="700">
-        <h4>Resultados:</h4>
-        <ol>
-            <li><em>Lando Norris</em></li>
-            <li><em>Lewis Hamilton</em></li>
-            <li><em>George Rusell</em></li>
-        </ol>
-        <ul>
-            <li><em>Piloto del día: </em>George Rusell</li>
-            <li><em>Mejor parada de pits: </em>Mercedes-1.90s</li>
-        </ul>  
-        <a href="https://tickets.formula1.com/es">Tickets aquí</a>  
+        <div class="resultados2">
+            <h4>Resultados:</h4>
+            <ol>
+                <li><em>Lando Norris</em></li>
+                <li><em>Lewis Hamilton</em></li>
+                <li><em>George Rusell</em></li>
+            </ol>
+            <ul>
+                <li><em>Piloto del día: </em>George Rusell</li>
+                <li><em>Mejor parada de pits: </em>Mercedes-1.90s</li>
+            </ul>  
+            <a href="https://tickets.formula1.com/es">Tickets aquí</a> 
+        </div> 
     </main>
-    <aside>
+    <aside class="encuesta">
         <form action="#" method="post">
             <fieldset>
                 <legend>Dejanos tu opinion</legend>
-                <label>Mejor Piloto del día:</label><br>
-                <input type="radio" name="mejorPiloto" value="Lando" id="lando">
-                <label for="lando">Lando Norris</label><br>
-                <input type="radio" name="mejorPiloto" value="Lewis" id="lewis">
-                <label for="lewis">Lewis Hamilton</label><br>
-                <input type="radio" name="mejorPiloto" value="George" id="george">
-                <label for="george">George Rusell</label><br>
+                <div class="div1">
+                    <label>Mejor Piloto del día:</label><br>
+                    <input type="radio" name="mejorPiloto" value="Lando" id="lando">
+                    <label for="lando">Lando Norris</label><br>
+                    <input type="radio" name="mejorPiloto" value="Lewis" id="lewis">
+                    <label for="lewis">Lewis Hamilton</label><br>
+                    <input type="radio" name="mejorPiloto" value="George" id="george">
+                    <label for="george">George Rusell</label><br>
 
-                <label>Peor Piloto del día:</label><br>
-                <input type="radio" name="peorPiloto" value="Stroll" id="lance">
-                <label for="lance">Lance Stroll</label><br>
-                <input type="radio" name="peorPiloto" value="Zhou" id="zhou">
-                <label for="zhou">Zhou Guanyu</label><br>
-                <input type="radio" name="peorPiloto" value="Lawson" id="liam">
-                <label for="liam">Liam Lawson</label><br>
+                    <label>Peor Piloto del día:</label><br>
+                    <input type="radio" name="peorPiloto" value="Stroll" id="lance">
+                    <label for="lance">Lance Stroll</label><br>
+                    <input type="radio" name="peorPiloto" value="Zhou" id="zhou">
+                    <label for="zhou">Zhou Guanyu</label><br>
+                    <input type="radio" name="peorPiloto" value="Lawson" id="liam">
+                    <label for="liam">Liam Lawson</label><br>
+                </div>
 
-                <textarea name="opinion" id="opinon" cols="30" rows="10">¿Que te pareció la carrera?</textarea><br>
-                <input type="submit" id="enviarO" name="enviarO" value="Enviar">
+                <div class="div2">
+                    <textarea name="opinion" id="opinon" cols="30" rows="10">¿Que te pareció la carrera?</textarea><br>
+                    <input type="submit" id="enviarO" name="enviarO" value="Enviar">
+                </div>
             </fieldset>
         </form>
     </aside>
