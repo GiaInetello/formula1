@@ -1,0 +1,149 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: black;
+        height: 100vh;
+    }
+    
+    body a {
+        color: rgb(5, 5, 5);
+        font-size: 15px;
+        background-color: rgb(248, 248, 248);
+        border-radius: 10px;
+        margin: 50px;
+        text-decoration: none;
+    }
+    
+    .formularioR {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        background: white;
+        border-radius: 17px;
+    }
+    
+    .formularioR h1 {
+        text-align: center;
+        padding: 0 0 7px 0;
+        border-bottom: 1px solid silver;
+        border-top: 1px solid silver;
+    }
+    
+    .formularioR h3 {
+        padding-left: 8px;
+        color: red;
+    }
+    
+    .formularioR h4 {
+        padding-top: 10px;
+        padding-bottom: 0;
+        font-size: 17px;
+        color: red;
+    }
+    
+    .formularioR form {
+        padding: 0 30px;
+        box-sizing: border-box;
+    }
+    
+    form .user {
+        padding-top: 0, 5px;
+        position: relative;
+        border-bottom: 2px solid #adadad;
+        margin: 4px 0;
+    }
+    
+    .user input {
+        width: 100%;
+        padding: 0 5px;
+        height: 40px;
+        font-size: 16px;
+        border: none;
+        background: none;
+        outline: none;
+    }
+    
+    .user label {
+        position: absolute;
+        top: 35%;
+        left: 5px;
+        color: #adadad;
+        font-size: 16px;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+    
+    .sexo {
+        padding-top: 0;
+        font-size: 17px;
+        color: #adadad;
+    }
+    
+    .nacimiento {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: red;
+        font-size: 17px;
+    }
+    
+    .nacimiento input {
+        color: #adadad;
+        border: #adadad;
+        font-size: 14px;
+    }
+    
+    .continente {
+        padding-top: 0;
+        padding-bottom: 20px;
+        color: red;
+        font-size: 17px;
+    }
+    
+    .continente option {
+        color: red;
+        font-size: 15px;
+    }
+    
+    form .cuenta {
+        padding-top: 0, 5px;
+        position: relative;
+        border-bottom: 2px solid #adadad;
+        margin: 4px 0;
+    }
+    
+    .cuenta input {
+        width: 100%;
+        padding: 0 5px;
+        height: 40px;
+        font-size: 16px;
+        border: none;
+        background: none;
+        outline: none;
+    }
+    
+    .cuenta label {
+        position: absolute;
+        top: 35%;
+        left: 5px;
+        color: #adadad;
+        font-size: 16px;
+        transform: translateY(-50%);
+        pointer-events: none;
+    }
+    
+    .acepto {
+        color: #adadad;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .boton input {
+        color: red;
+        font-size: 14px;
+        background-color: black;
+        border-radius: 8px;
+        border-color: black;
+    }

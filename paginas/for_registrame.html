@@ -6,38 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registrame</title>
     <link rel="shortcut icon" href="../imagenes/logo_negro.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/formularios.css">
 
 </head>
 
 <body>
-    <a href="../index.html">Volver</a>
-    <h1>Registrame</h1>
-    <form method="post" action="noticias.html">
-        <fieldset>
-            <legend>Datos Personales</legend>
-            <label for="nombre">Nombre</label> <br>
-            <input type="text" name="nombre" id="nombre" maxlength="15" minlength="3"> <br>
+    <strong><a href="../index.html">Volver</a></strong>
+    <div class="formularioR">
+        <h1>Registrame</h1>
+        <form method="post" action="noticias.html">
 
-            <label for="apellido">Apellido</label> <br>
-            <input type="text" name="apellido" id="apellido" size="30"> <br>
-
-            <label for="dni">DNI</label><br>
-            <input type="tel" name="nocumento" id="dni"><br>
-
-
-            <label>Sexo</label> <br>
-            <input type="radio" name="sexo" value="femenino" id="fem">
-            <label for="fem">Femenino</label>
-            <input type="radio" name="sexo" value="masculino" id="mas">
-            <label for="mas">Masculino</label>
-            <input type="radio" name="sexo" value="otro" id="otr" checked>
-            <label for="otr">Otro</label> <br>
-
-            <label for="fech.nacimiento">Fecha de nacimiento</label><br>
-            <input type="date" name="fecha" id="fech.nacimiento"><br>
-
-            <label for="continente">Continente</label> <br>
-            <select name="continente" id="continente">
+            <h3>Datos personales</h3>
+            <section>
+                <div class="user">
+                    <label for="nombre">Nombre</label> <br>
+                    <input type="text" name="nombre" id="nombre" maxlength="15" minlength="3"> <br>
+                </div>
+                <div class="user">
+                    <label for="apellido">Apellido</label> <br>
+                    <input type="text" name="apellido" id="apellido" size="30"> <br>
+                </div>
+                <div class="user">
+                    <label for="dni">DNI</label><br>
+                    <input type="tel" name="nocumento" id="dni"><br>
+                </div>
+            </section>
+            <h4>Sexo</h4>
+            <div class="sexo">
+                <input type="radio" name="sexo" value="femenino" id="fem">
+                <label for="fem">Femenino</label>
+            </div>
+            <div class="sexo">
+                <input type="radio" name="sexo" value="masculino" id="mas">
+                <label for="mas">Masculino</label>
+            </div>
+            <div class="sexo">
+                <input type="radio" name="sexo" value="otro" id="otr" checked>
+                <label for="otr">Otro</label>
+            </div>
+            <div class="nacimiento">
+                <strong><label for="fech.nacimiento">Fecha de nacimiento</label></strong><br>
+                <input type="date" name="fecha" id="fech.nacimiento"><br>
+            </div>
+            <div class="continente">
+                <strong><label for="continente">Continente</label></strong> <br>
+                <select name="continente" id="continente">
                 <option>seleccione</option>
                 <option value="laam">Latino America</option>
                 <option value="asia">Asia</option>
@@ -45,30 +58,37 @@
                 <option value="afri">África</option>
                 <option value="ocea">Oceanía</option>
                 <option value="amsur">América del Sur</option>
-            </select>
+                </select>
 
+                <h1>Datos de cuenta</h1>
+                <div class="cuenta">
+                    <label for="email">Email</label> <br>
 
-        </fieldset>
-        <fieldset>
-            <legend>Datos de cuenta</legend>
-            <label for="email">Email</label> <br>
-            <input type="email" name="email" id="email"><br>
+                    <input type="email" name="email" id="email"><br>
+                </div>
+                <div class="cuenta">
+                    <label for="contra">Contraseña</label> <br>
+                    <input type="password" name="contra" id="contra" required> <br>
+                </div>
+                <div class="cuenta">
+                    <label for="contra">Confirme contraseña</label> <br>
+                    <input type="password" name="contraseña" id="contraseña" required> <br>
+                </div>
+                <div class="acepto">
+                    <input type="checkbox" name="acuerdos" value="acepta" id="acuerdos">
+                    <label for="acuerdos">Acepto los terminos y condiciones</label> <br>
+                </div>
+                <div class="acepto">
+                    <input type="checkbox" name="suscripcion" value="suscripto" id="sus" checked>
+                    <label for="sus">Suscribirme a las novedades</label><br>
+                </div>
+                <div class="boton">
+                    <input type="submit" name="enviar" value="Guardar">
+                    <input type="reset" value="Borrar los datos">
+                </div>
+            </div>
+        </form>
 
-            <label for="contra">Contraseña</label> <br>
-            <input type="password" name="contra" id="contra" required> <br>
-            <label for="contra">Confirme contraseña</label> <br>
-            <input type="password" name="contraseña" id="contraseña" required> <br>
-        </fieldset>
-
-        <input type="checkbox" name="acuerdos" value="acepta" id="acuerdos">
-        <label for="acuerdos">Acepto los terminos y condiciones</label> <br>
-
-        <input type="checkbox" name="suscripcion" value="suscripto" id="sus" checked>
-        <label for="sus">Suscribirme a las novedades</label><br>
-
-        <input type="submit" name="enviar" value="Guardar">
-        <input type="reset" value="Borrar los datos">
-    </form>
 </body>
 
 </html>
