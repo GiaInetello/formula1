@@ -57,20 +57,31 @@ body{
 
 .encuesta{
     background-color: #adadad;
+    width: 500px;
     color: black;
     border-radius: 20px;
     margin: 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    margin-left: 35%;
     padding: 30px 30px;
     position: relative;
 }
 .div1{
-    justify-content: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
 }
 .div2{
-    justify-content: right;
+    justify-content: left;
+    margin-right: 20px;
+}
+.div3{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
 }
 .encuesta legend{
     font-size: 30px;
@@ -79,5 +90,16 @@ body{
 
 .encuesta fieldset{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boton{
+    text-align: center;
+    font-size: 14px;
+    color: #073ef1;
+    background: #fffefe;
+    border-radius: 10px;
+    border: none;
 }
